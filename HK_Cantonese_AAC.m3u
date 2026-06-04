@@ -1,0 +1,21 @@
+#EXTM3U
+
+#EXTINF:-1 tvg-id="viutv" tvg-logo="https://i.imgur.com/7Nq1K8M.png" group-title="Hong Kong",ViuTV (HD)
+http://livetv.dnsfor.me:80/channel/viutv/hd/aac
+
+#EXTINF:-1 tvg-id="viutv" tvg-logo="https://i.imgur.com/7Nq1K8M.png" group-title="Hong Kong",ViuTV (SD)
+http://livetv.dnsfor.me:80/channel/viutv/sd/aac
+
+#EXTINF:-1 tvg-id="viutvsix" tvg-logo="https://i.imgur.com/8g4uYQX.png" group-title="Hong Kong",ViuTVsix (HD)
+http://livetv.dnsfor.me:80/channel/viutvsix/hd/aac
+
+#EXTINF:-1 tvg-id="viutvsix" tvg-logo="https://i.imgur.com/8g4uYQX.png" group-title="Hong Kong",ViuTVsix (SD)
+http://livetv.dnsfor.me:80/channel/viutvsix/sd/aac
+
+#EXTINF:-1 tvg-id="hoytv" tvg-logo="https://i.imgur.com/0xJtq2p.png" group-title="Hong Kong",HOY TV (HD)
+http://livetv.dnsfor.me:80/channel/hoytv/hd/aac
+
+#EXTINF:-1 tvg-id="hoytv" tvg-logo="https://i.imgur.com/0xJtq2p.png" group-title="Hong Kong",HOY TV (SD)
+http://livetv.dnsfor.me:80/channel/hoytv/sd/aac
+
+#EXTINF:-1 tvg-id="h
