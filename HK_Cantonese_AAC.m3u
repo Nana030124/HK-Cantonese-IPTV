@@ -18,4 +18,26 @@ http://livetv.dnsfor.me:80/channel/hoytv/hd/aac
 #EXTINF:-1 tvg-id="hoytv" tvg-logo="https://i.imgur.com/0xJtq2p.png" group-title="Hong Kong",HOY TV (SD)
 http://livetv.dnsfor.me:80/channel/hoytv/sd/aac
 
-#EXTINF:-1 tvg-id="h
+#EXTINF:-1 tvg-id="hoyinfo" tvg-logo="https://i.imgur.com/9tYp0pV.png" group-title="Hong Kong",HOY Info (HD)
+http://livetv.dnsfor.me:80/channel/hoyinfo/hd/aac
+
+#EXTINF:-1 tvg-id="hoyinfo" tvg-logo="https://i.imgur.com/9tYp0pV.png" group-title="Hong Kong",HOY Info (SD)
+http://livetv.dnsfor.me:80/channel/hoyinfo/sd/aac
+
+#EXTINF:-1 tvg-id="rthk31" tvg-logo="https://i.imgur.com/4k1mQ0G.png" group-title="Hong Kong",RTHK 31 (HD)
+https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/master.m3u8
+
+#EXTINF:-1 tvg-id="rthk31" tvg-logo="https://i.imgur.com/4k1mQ0G.png" group-title="Hong Kong",RTHK 31 (SD)
+https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/index_360_av-b.m3u8
+
+#EXTINF:-1 tvg-id="rthk32" tvg-logo="https://i.imgur.com/1xw0n6S.png" group-title="Hong Kong",RTHK 32 (HD)
+https://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/master.m3u8
+
+#EXTINF:-1 tvg-id="rthk32" tvg-logo="https://i.imgur.com/1xw0n6S.png" group-title="Hong Kong",RTHK 32 (SD)
+https://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/index_360_av-b.m3u8
+
+#EXTINF:-1 tvg-id="rthk33" tvg-logo="https://i.imgur.com/3Qm8x0J.png" group-title="Hong Kong",RTHK 33 (HD)
+https://rthklive3-lh.akamaihd.net/i/rthk33_1@168451/master.m3u8
+
+#EXTINF:-1 tvg-id="rthk33" tvg-logo="https://i.imgur.com/3Qm8x0J.png" group-title="Hong Kong",RTHK 33 (SD)
+https://rthklive3-lh.akamaihd.net/i/rthk33_1@168451/index_360_av-b.m3u8
