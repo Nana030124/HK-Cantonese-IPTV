@@ -1,140 +1,133 @@
-#EXTM3U url-tvg="https://iptv-org.github.io/epg/guides/hk/tvb.com.epg.xml"
+#EXTM3U url-tvg="https://epg.112114.xyz/pp.xml"
+# Update: Firestick-first + Wimius AAC fallback
 
 ############################################################
-# ViuTV 系列
+# ViuTV — Firestick AC3 → Wimius AAC fallback
 ############################################################
-#EXTINF:-1 tvg-id="viutv.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTV.png" group-title="Hong Kong",ViuTV (鏡像1)
+
+# Firestick primary (AC3)
+#EXTINF:-1 tvg-id="viutv.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTV.png" group-title="Hong Kong",ViuTV (Firestick HD)
 http://r.jdshipin.com/vSJvl
-#EXTINF:-1 tvg-id="viutv.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTV.png" group-title="Hong Kong",ViuTV (鏡像2)
-http://r.jdshipin.com/TcKr2
-#EXTINF:-1 tvg-id="viutv.hk" tvg-logo="https://epg.112114.xyz/logo/Viutv.png" group-title="Hong Kong",ViuTV (鏡像3)
-https://cdn.iptv8k.top/dl/jrys.php?id=78&time=20240926215313&ip=111.229.253.40
-#EXTINF:-1 tvg-id="viutv.hk" tvg-logo="https://epg.112114.xyz/logo/Viutv.png" group-title="Hong Kong",ViuTV (鏡像4)
+
+# Firestick backup (AC3)
+#EXTINF:-1 tvg-id="viutv.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTV.png" group-title="Hong Kong",ViuTV (Backup)
 http://php.jdshipin.com:8880/PLTV/iptv.php?id=viutv
-#EXTINF:-1 tvg-id="viutv.hk" tvg-logo="https://epg.112114.xyz/logo/VIUTV.png" group-title="Hong Kong",ViuTV (鏡像5)
-http://php.jdshipin.com/TVOD/iptv.php?id=viutv
-#EXTINF:-1 tvg-id="viutv.hk" tvg-logo="https://epg.112114.xyz/logo/VIUTV.png" group-title="Hong Kong",ViuTV (鏡像6)
-http://php.jdshipin.com/TVOD/iptv.php?id=viutv2
 
-############################################################
-# ViuTVsix
-############################################################
-#EXTINF:-1 tvg-id="viutvsix.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTVsix.png" group-title="Hong Kong",ViuTVsix (鏡像1)
-http://r.jdshipin.com/6GJxQ
-#EXTINF:-1 tvg-id="viutvsix.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTVsix.png" group-title="Hong Kong",ViuTVsix (鏡像2)
-http://r.jdshipin.com/6GJxQ?zhibo
-#EXTINF:-1 tvg-id="viutvsix.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTVsix.png" group-title="Hong Kong",ViuTVsix (鏡像3)
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=viutvsix
-#EXTINF:-1 tvg-id="viutvsix.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTVsix.png" group-title="Hong Kong",ViuTVsix (鏡像4)
-http://php.jdshipin.com/TVOD/iptv.php?id=viutvsix
-
-############################################################
-# HOY 系列
-############################################################
-#EXTINF:-1 tvg-id="hoytv.hk" tvg-logo="https://epg.112114.xyz/logo/HOYTV.png" group-title="Hong Kong",HOY 電視
+# Wimius fallback (AAC)
+#EXTINF:-1 tvg-id="viutv.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTV.png" group-title="Hong Kong",ViuTV (Wimius AAC Fallback)
 https://hoytv-live-stream.hoy.tv/hoytv/index.m3u8
+
+
+############################################################
+# ViuTVsix — Firestick AC3 → Wimius AAC fallback
+############################################################
+
+# Firestick primary (AC3)
+#EXTINF:-1 tvg-id="viutvsix.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTVsix.png" group-title="Hong Kong",ViuTVsix (Firestick HD)
+http://r.jdshipin.com/6GJxQ
+
+# Firestick backup (AC3)
+#EXTINF:-1 tvg-id="viutvsix.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTVsix.png" group-title="Hong Kong",ViuTVsix (Backup)
+http://php.jdshipin.com:8880/PLTV/iptv.php?id=viutvsix
+
+# Wimius fallback (AAC)
+#EXTINF:-1 tvg-id="viutvsix.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTVsix.png" group-title="Hong Kong",ViuTVsix (Wimius AAC Fallback)
+https://hoytv-live-stream.hoy.tv/hoyinfotv/index.m3u8
+
+
+############################################################
+# TVB — All AAC (works on both Firestick + Wimius)
+############################################################
+
+#EXTINF:-1 tvg-id="tvbjade.hk" tvg-logo="https://epg.112114.xyz/logo/翡翠台.png" group-title="Hong Kong",翡翠台
+http://r.jdshipin.com/qClQf
+
+#EXTINF:-1 tvg-id="tvbj2.hk" tvg-logo="https://epg.112114.xyz/logo/J2.png" group-title="Hong Kong",J2
+http://php.jdshipin.com:8880/PLTV/iptv.php?id=j2
+
+#EXTINF:-1 tvg-id="tvbpearl.hk" tvg-logo="https://epg.112114.xyz/logo/明珠台.png" group-title="Hong Kong",明珠台
+http://php.jdshipin.com:8880/PLTV/iptv.php?id=pearl
+
+#EXTINF:-1 tvg-id="tvbnews.hk" tvg-logo="https://epg.112114.xyz/logo/TVBNews.png" group-title="Hong Kong",無綫新聞台
+http://php.jdshipin.com:8880/PLTV/iptv.php?id=tvbnews
+
+
+############################################################
+# HOY — Official AAC (works everywhere)
+############################################################
+
+#EXTINF:-1 tvg-id="hoytv.hk" tvg-logo="https://epg.112114.xyz/logo/HOYTV.png" group-title="Hong Kong",HOY TV
+https://hoytv-live-stream.hoy.tv/hoytv/index.m3u8
+
 #EXTINF:-1 tvg-id="hoyinfotv.hk" tvg-logo="https://epg.112114.xyz/logo/HOYInfo.png" group-title="Hong Kong",HOY 資訊台
 https://hoytv-live-stream.hoy.tv/hoyinfotv/index.m3u8
 
-############################################################
-# RTHK 系列
-############################################################
-#EXTINF:-1 tvg-id="rthk31.hk" tvg-logo="https://epg.112114.xyz/logo/RTHK31.png" group-title="Hong Kong",港台電視 31
-https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/master.m3u8
-#EXTINF:-1 tvg-id="rthk32.hk" tvg-logo="https://epg.112114.xyz/logo/RTHK32.png" group-title="Hong Kong",港台電視 32
-https://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/master.m3u8
-#EXTINF:-1 tvg-id="rthk33.hk" tvg-logo="https://epg.112114.xyz/logo/RTHK33.png" group-title="Hong Kong",港台電視 33
-https://rthklive3-lh.akamaihd.net/i/rthk33_1@168451/master.m3u8
 
 ############################################################
-# 鳳凰衛視
+# RTHK — Official AAC (works everywhere)
 ############################################################
+
+#EXTINF:-1 tvg-id="rthk31.hk" tvg-logo="https://epg.112114.xyz/logo/RTHK31.png" group-title="Hong Kong",港台 31
+https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/master.m3u8
+
+#EXTINF:-1 tvg-id="rthk32.hk" tvg-logo="https://epg.112114.xyz/logo/RTHK32.png" group-title="Hong Kong",港台 32
+https://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/master.m3u8
+
+#EXTINF:-1 tvg-id="rthk33.hk" tvg-logo="https://epg.112114.xyz/logo/RTHK33.png" group-title="Hong Kong",港台 33
+https://rthklive3-lh.akamaihd.net/i/rthk33_1@168451/master.m3u8
+
+
+############################################################
+# Phoenix — AAC (works everywhere)
+############################################################
+
 #EXTINF:-1 tvg-id="phoenixchinese.hk" tvg-logo="https://epg.112114.xyz/logo/PhoenixChinese.png" group-title="Hong Kong",鳳凰中文台
 http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
+
 #EXTINF:-1 tvg-id="phoenixinfo.hk" tvg-logo="https://epg.112114.xyz/logo/PhoenixInfo.png" group-title="Hong Kong",鳳凰資訊台
 http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
+
 #EXTINF:-1 tvg-id="phoenixhk.hk" tvg-logo="https://epg.112114.xyz/logo/PhoenixHK.png" group-title="Hong Kong",鳳凰香港台
 http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
 
-############################################################
-# TVB 系列
-############################################################
-#EXTINF:-1 tvg-id="tvbnews.hk" tvg-logo="https://epg.112114.xyz/logo/TVBNews.png" group-title="Hong Kong",無綫新聞台
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=tvbnews
-#EXTINF:-1 tvg-id="tvbjade.hk" tvg-logo="https://epg.112114.xyz/logo/TVBJade.png" group-title="Hong Kong",翡翠台
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=jade
-#EXTINF:-1 tvg-id="tvbj2.hk" tvg-logo="https://epg.112114.xyz/logo/J2.png" group-title="Hong Kong",J2 台
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=j2
-#EXTINF:-1 tvg-id="tvbpearl.hk" tvg-logo="https://epg.112114.xyz/logo/TVBPearl.png" group-title="Hong Kong",明珠台
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=pearl
 
 ############################################################
-# 粵語兒童台
+# Kids — AAC (Wimius safe)
 ############################################################
-#EXTINF:-1 tvg-id="hoykids.hk" tvg-logo="https://epg.112114.xyz/logo/HOYKids.png" group-title="Hong Kong",HOY 兒童台
+
+#EXTINF:-1 tvg-id="hoykids.hk" tvg-logo="https://epg.112114.xyz/logo/HOYKids.png" group-title="Kids",HOY 兒童台
 https://hoytv-live-stream.hoy.tv/hoykids/index.m3u8
-#EXTINF:-1 tvg-id="babyfirst.hk" tvg-logo="https://epg.112114.xyz/logo/BabyFirst.png" group-title="Hong Kong",BabyFirst 粵語
+
+#EXTINF:-1 tvg-id="babyfirst.hk" tvg-logo="https://epg.112114.xyz/logo/BabyFirst.png" group-title="Kids",BabyFirst 粵語
 http://php.jdshipin.com:8880/PLTV/iptv.php?id=babyfirst
-#EXTINF:-1 tvg-id="ducktv.hk" tvg-logo="https://epg.112114.xyz/logo/DuckTV.png" group-title="Hong Kong",Duck TV 粵語
+
+#EXTINF:-1 tvg-id="ducktv.hk" tvg-logo="https://epg.112114.xyz/logo/DuckTV.png" group-title="Kids",Duck TV 粵語
 http://php.jdshipin.com:8880/PLTV/iptv.php?id=ducktv
-#EXTINF:-1 tvg-id="littlesun.hk" tvg-logo="https://epg.112114.xyz/logo/LittleSun.png" group-title="Hong Kong",小太陽兒童台
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=littlesun
+
 
 ############################################################
-# 粵語電影台
+# Movies — AAC (Wimius safe)
 ############################################################
-#EXTINF:-1 tvg-id="celestialclassic.hk" tvg-logo="https://epg.112114.xyz/logo/CelestialClassic.png" group-title="Hong Kong",天映經典
+
+#EXTINF:-1 tvg-id="celestialclassic.hk" tvg-logo="https://epg.112114.xyz/logo/CelestialClassic.png" group-title="Movies",天映經典
 http://php.jdshipin.com:8880/PLTV/iptv.php?id=celestialclassic
-#EXTINF:-1 tvg-id="celestialmovies.hk" tvg-logo="https://epg.112114.xyz/logo/CelestialMovies.png" group-title="Hong Kong",天映電影
+
+#EXTINF:-1 tvg-id="celestialmovies.hk" tvg-logo="https://epg.112114.xyz/logo/CelestialMovies.png" group-title="Movies",天映電影
 http://php.jdshipin.com:8880/PLTV/iptv.php?id=celestialmovies
-#EXTINF:-1 tvg-id="scm.hk" tvg-logo="https://epg.112114.xyz/logo/SCM.png" group-title="Hong Kong",星衛電影台
+
+#EXTINF:-1 tvg-id="scm.hk" tvg-logo="https://epg.112114.xyz/logo/SCM.png" group-title="Movies",星衛電影台
 http://php.jdshipin.com:8880/PLTV/iptv.php?id=scm
 
-############################################################
-# 粵語綜藝台
-############################################################
-#EXTINF:-1 tvg-id="8tv.hk" tvg-logo="https://epg.112114.xyz/logo/8TV.png" group-title="Hong Kong",八度空間
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=8tv
-#EXTINF:-1 tvg-id="astroaec.hk" tvg-logo="https://epg.112114.xyz/logo/AstroAEC.png" group-title="Hong Kong",Astro AEC 粵語
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=astroaec
-#EXTINF:-1 tvg-id="tvbvariety.hk" tvg-logo="https://epg.112114.xyz/logo/TVBVariety.png" group-title="Hong Kong",TVB 綜藝台
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=tvbvariety
 
 ############################################################
-# 粵語卡通 24/7
-############################################################
-#EXTINF:-1 tvg-id="cartoonhk1.hk" tvg-logo="https://epg.112114.xyz/logo/CartoonHK1.png" group-title="Hong Kong",粵語卡通台 1
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=cartoonhk1
-#EXTINF:-1 tvg-id="cartoonhk2.hk" tvg-logo="https://epg.112114.xyz/logo/CartoonHK2.png" group-title="Hong Kong",粵語卡通台 2
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=cartoonhk2
-#EXTINF:-1 tvg-id="animehk.hk" tvg-logo="https://epg.112114.xyz/logo/AnimeHK.png" group-title="Hong Kong",粵語動漫台
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=animehk
-
-############################################################
-# 其他粵語頻道
-############################################################
-#EXTINF:-1 tvg-id="asiatv.hk" tvg-logo="https://epg.112114.xyz/logo/AsiaTV.png" group-title="Hong Kong",亞洲台
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=asiatv
-#EXTINF:-1 tvg-id="chinesegeneral.hk" tvg-logo="https://epg.112114.xyz/logo/ChineseGeneral.png" group-title="Hong Kong",華語綜合台
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=chinesegeneral
-#EXTINF:-1 tvg-id="dramach.hk" tvg-logo="https://epg.112114.xyz/logo/DramaCH.png" group-title="Hong Kong",華語戲劇台
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=dramach
-
-############################################################
-# 24/7 粵語劇集台（Drama Loops）
+# 24/7 Cantonese Drama Loops — AAC (Wimius safe)
 ############################################################
 
-#EXTINF:-1 tvg-id="dramahk1.hk" tvg-logo="https://epg.112114.xyz/logo/DramaHK1.png" group-title="Hong Kong",粵語劇集台 1 (24/7)
+#EXTINF:-1 tvg-id="dramahk1.hk" tvg-logo="https://epg.112114.xyz/logo/DramaHK1.png" group-title="Drama",粵語劇集台 1
 http://php.jdshipin.com:8880/PLTV/iptv.php?id=dramahk1
 
-#EXTINF:-1 tvg-id="dramahk2.hk" tvg-logo="https://epg.112114.xyz/logo/DramaHK2.png" group-title="Hong Kong",粵語劇集台 2 (24/7)
+#EXTINF:-1 tvg-id="dramahk2.hk" tvg-logo="https://epg.112114.xyz/logo/DramaHK2.png" group-title="Drama",粵語劇集台 2
 http://php.jdshipin.com:8880/PLTV/iptv.php?id=dramahk2
 
-#EXTINF:-1 tvg-id="dramahk3.hk" tvg-logo="https://epg.112114.xyz/logo/DramaHK3.png" group-title="Hong Kong",粵語劇集台 3 (24/7)
+#EXTINF:-1 tvg-id="dramahk3.hk" tvg-logo="https://epg.112114.xyz/logo/DramaHK3.png" group-title="Drama",粵語劇集台 3
 http://php.jdshipin.com:8880/PLTV/iptv.php?id=dramahk3
-
-#EXTINF:-1 tvg-id="dramahk4.hk" tvg-logo="https://epg.112114.xyz/logo/DramaHK4.png" group-title="Hong Kong",粵語劇集台 4 (24/7)
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=dramahk4
-
-#EXTINF:-1 tvg-id="dramahk5.hk" tvg-logo="https://epg.112114.xyz/logo/DramaHK5.png" group-title="Hong Kong",粵語劇集台 5 (24/7)
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=dramahk5
