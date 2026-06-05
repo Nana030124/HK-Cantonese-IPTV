@@ -1,27 +1,58 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="viutv" tvg-logo="https://i.imgur.com/7Nq1K8M.png" group-title="Hong Kong",ViuTV
-https://epg.pw/stream/viutv_aac.m3u8
+###############
+# 1. ViuTV
+###############
+#EXTINF:-1 tvg-id="viutv" tvg-logo="https://i.imgur.com/7Nq1K8M.png" group-title="Hong Kong",ViuTV (HD)
+https://live-cn-hd.viutv-mirror.com/h264_aac/viutv_hd.m3u8
+#EXTVLCOPT:backup-url=https://live-global.viutv-mirror.com/h264_aac/viutv_sd.m3u8
 
-#EXTINF:-1 tvg-id="viutvsix" tvg-logo="https://i.imgur.com/8g4uYQX.png" group-title="Hong Kong",ViuTVsix
-https://epg.pw/stream/viutvsix_aac.m3u8
+###############
+# 2. ViuTVsix
+###############
+#EXTINF:-1 tvg-id="viutvsix" tvg-logo="https://i.imgur.com/8g4uYQX.png" group-title="Hong Kong",ViuTVsix (HD)
+https://live-cn-hd.viutv-mirror.com/h264_aac/viutvsix_hd.m3u8
+#EXTVLCOPT:backup-url=https://live-global.viutv-mirror.com/h264_aac/viutvsix_sd.m3u8
 
-#EXTINF:-1 tvg-id="hoytv" tvg-logo="https://i.imgur.com/0xJtq2p.png" group-title="Hong Kong",HOY TV
-https://epg.pw/stream/hoytv_aac.m3u8
+###############
+# 3. HOY TV
+###############
+#EXTINF:-1 tvg-id="hoytv" tvg-logo="https://i.imgur.com/0xJtq2p.png" group-title="Hong Kong",HOY TV (HD)
+https://cn-hoytv-hd.mirrorcdn.live/h264_aac/hoytv_hd.m3u8
+#EXTVLCOPT:backup-url=https://cn-hoytv-sd.mirrorcdn.live/h264_aac/hoytv_sd.m3u8
 
-#EXTINF:-1 tvg-id="hoyinfo" tvg-logo="https://i.imgur.com/9tYp0pV.png" group-title="Hong Kong",HOY Info
-https://epg.pw/stream/hoyinfo_aac.m3u8
+###############
+# 4. HOY Info
+###############
+#EXTINF:-1 tvg-id="hoyinfo" tvg-logo="https://i.imgur.com/9tYp0pV.png" group-title="Hong Kong",HOY Info (HD)
+https://cn-hoyinfo-hd.mirrorcdn.live/h264_aac/hoyinfo_hd.m3u8
+#EXTVLCOPT:backup-url=https://cn-hoyinfo-sd.mirrorcdn.live/h264_aac/hoyinfo_sd.m3u8
 
-#EXTINF:-1 tvg-id="rthk31" tvg-logo="https://i.imgur.com/4k1mQ0G.png" group-title="Hong Kong",RTHK 31
+###############
+# 5. RTHK 31
+###############
+#EXTINF:-1 tvg-id="rthk31" tvg-logo="https://i.imgur.com/4k1mQ0G.png" group-title="Hong Kong",RTHK 31 (HD)
 https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/master.m3u8
+#EXTVLCOPT:backup-url=https://rthk31sd.globalcdn.live/h264_aac/rthk31_sd.m3u8
 
-#EXTINF:-1 tvg-id="rthk32" tvg-logo="https://i.imgur.com/1xw0n6S.png" group-title="Hong Kong",RTHK 32
+###############
+# 6. RTHK 32
+###############
+#EXTINF:-1 tvg-id="rthk32" tvg-logo="https://i.imgur.com/1xw0n6S.png" group-title="Hong Kong",RTHK 32 (HD)
 https://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/master.m3u8
+#EXTVLCOPT:backup-url=https://rthk32sd.globalcdn.live/h264_aac/rthk32_sd.m3u8
 
-#EXTINF:-1 tvg-id="rthk33" tvg-logo="https://i.imgur.com/3Qm8x0J.png" group-title="Hong Kong",RTHK 33
+###############
+# 7. RTHK 33
+###############
+#EXTINF:-1 tvg-id="rthk33" tvg-logo="https://i.imgur.com/3Qm8x0J.png" group-title="Hong Kong",RTHK 33 (HD)
 https://rthklive3-lh.akamaihd.net/i/rthk33_1@168451/master.m3u8
+#EXTVLCOPT:backup-url=https://rthk33sd.globalcdn.live/h264_aac/rthk33_sd.m3u8
 
+###############
+# 8. TVB News 26 (Auto‑fallback)
+###############
 #EXTINF:-1 tvg-id="tvbnews26" tvg-logo="https://i.imgur.com/2YkYx0P.png" group-title="Hong Kong",TVB News 26
-https://epg.pw/stream/tvbnews26_aac.m3u8
-#EXTVLCOPT:backup-url=https://iptv12k.com/hk/tvbnews26/index.m3u8
-#EXTVLCOPT:backup-url=https://pull-l3-cny.douyincdn.com/live/tvbnews26.m3u8
+https://global-hd.tvbnews26.live/h264_aac/tvbnews26_hd.m3u8
+#EXTVLCOPT:backup-url=https://cn-fast.tvbnews26.live/h264_aac/tvbnews26_sd.m3u8
+#EXTVLCOPT:backup-url=https://backup-global.tvbnews26.live/h264_aac/tvbnews26_alt.m3u8
