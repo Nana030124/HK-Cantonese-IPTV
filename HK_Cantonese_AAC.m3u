@@ -3,15 +3,26 @@
 ###############
 # ViuTV (Channel 99)
 ###############
-#EXTINF:-1 tvg-id="viutv" tvg-logo="https://i.imgur.com/7Nq1K8M.png" group-title="Hong Kong",ViuTV (HD)
-https://cdn.hk1.viu.tv/live/99/h264_aac/hd.m3u8
-#EXTVLCOPT:backup-url=https://cdn.hk2.viu.tv/live/99/h264_aac/sd.m3u8
-#EXTVLCOPT:backup-url=https://viutv-global.mirror/h264_aac/viutv_hd.m3u8
+
+#EXTINF:-1 tvg-id="viutv" tvg-logo="https://i.imgur.com/7Nq1K8M.png" group-title="Hong Kong",ViuTV (Mirror A)
+https://hktv.live/viutv/99/index.m3u8
+
+#EXTINF:-1 tvg-id="viutv" tvg-logo="https://i.imgur.com/7Nq1K8M.png" group-title="Hong Kong",ViuTV (Mirror B)
+https://cdn.hkdtv.net/hls/viutv.m3u8
+
+#EXTINF:-1 tvg-id="viutv" tvg-logo="https://i.imgur.com/7Nq1K8M.png" group-title="Hong Kong",ViuTV (Mirror C)
+https://pull-l3-cny.douyincdn.com/live/viutv.m3u8
+
 
 ###############
 # ViuTVsix (Channel 96)
 ###############
-#EXTINF:-1 tvg-id="viutvsix" tvg-logo="https://i.imgur.com/8g4uYQX.png" group-title="Hong Kong",ViuTVsix (HD)
-https://cdn.hk1.viu.tv/live/96/h264_aac/hd.m3u8
-#EXTVLCOPT:backup-url=https://cdn.hk2.viu.tv/live/96/h264_aac/sd.m3u8
-#EXTVLCOPT:backup-url=https://viutvsix-global.mirror/h264_aac/viutvsix_hd.m3u8
+
+#EXTINF:-1 tvg-id="viutvsix" tvg-logo="https://i.imgur.com/8g4uYQX.png" group-title="Hong Kong",ViuTVsix (Mirror A)
+https://hktv.live/viutvsix/96/index.m3u8
+
+#EXTINF:-1 tvg-id="viutvsix" tvg-logo="https://i.imgur.com/8g4uYQX.png" group-title="Hong Kong",ViuTVsix (Mirror B)
+https://cdn.hkdtv.net/hls/viutvsix.m3u8
+
+#EXTINF:-1 tvg-id="viutvsix" tvg-logo="https://i.imgur.com/8g4uYQX.png" group-title="Hong Kong",ViuTVsix (Mirror C)
+https://pull-l3-cny.douyincdn.com/live/viutvsix.m3u8
