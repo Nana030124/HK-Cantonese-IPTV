@@ -1,43 +1,27 @@
 #EXTM3U
 
-#EXTINF:-1 tvg-id="viutv" tvg-logo="https://i.imgur.com/7Nq1K8M.png" group-title="Hong Kong",ViuTV (HD)
-http://livetv.dnsfor.me:80/channel/viutv/hd/aac
+#EXTINF:-1 tvg-id="viutv" tvg-logo="https://i.imgur.com/7Nq1K8M.png" group-title="Hong Kong",ViuTV
+https://epg.pw/stream/viutv_aac.m3u8
 
-#EXTINF:-1 tvg-id="viutv" tvg-logo="https://i.imgur.com/7Nq1K8M.png" group-title="Hong Kong",ViuTV (SD)
-http://livetv.dnsfor.me:80/channel/viutv/sd/aac
+#EXTINF:-1 tvg-id="viutvsix" tvg-logo="https://i.imgur.com/8g4uYQX.png" group-title="Hong Kong",ViuTVsix
+https://epg.pw/stream/viutvsix_aac.m3u8
 
-#EXTINF:-1 tvg-id="viutvsix" tvg-logo="https://i.imgur.com/8g4uYQX.png" group-title="Hong Kong",ViuTVsix (HD)
-http://livetv.dnsfor.me:80/channel/viutvsix/hd/aac
+#EXTINF:-1 tvg-id="hoytv" tvg-logo="https://i.imgur.com/0xJtq2p.png" group-title="Hong Kong",HOY TV
+https://epg.pw/stream/hoytv_aac.m3u8
 
-#EXTINF:-1 tvg-id="viutvsix" tvg-logo="https://i.imgur.com/8g4uYQX.png" group-title="Hong Kong",ViuTVsix (SD)
-http://livetv.dnsfor.me:80/channel/viutvsix/sd/aac
+#EXTINF:-1 tvg-id="hoyinfo" tvg-logo="https://i.imgur.com/9tYp0pV.png" group-title="Hong Kong",HOY Info
+https://epg.pw/stream/hoyinfo_aac.m3u8
 
-#EXTINF:-1 tvg-id="hoytv" tvg-logo="https://i.imgur.com/0xJtq2p.png" group-title="Hong Kong",HOY TV (HD)
-http://livetv.dnsfor.me:80/channel/hoytv/hd/aac
-
-#EXTINF:-1 tvg-id="hoytv" tvg-logo="https://i.imgur.com/0xJtq2p.png" group-title="Hong Kong",HOY TV (SD)
-http://livetv.dnsfor.me:80/channel/hoytv/sd/aac
-
-#EXTINF:-1 tvg-id="hoyinfo" tvg-logo="https://i.imgur.com/9tYp0pV.png" group-title="Hong Kong",HOY Info (HD)
-http://livetv.dnsfor.me:80/channel/hoyinfo/hd/aac
-
-#EXTINF:-1 tvg-id="hoyinfo" tvg-logo="https://i.imgur.com/9tYp0pV.png" group-title="Hong Kong",HOY Info (SD)
-http://livetv.dnsfor.me:80/channel/hoyinfo/sd/aac
-
-#EXTINF:-1 tvg-id="rthk31" tvg-logo="https://i.imgur.com/4k1mQ0G.png" group-title="Hong Kong",RTHK 31 (HD)
+#EXTINF:-1 tvg-id="rthk31" tvg-logo="https://i.imgur.com/4k1mQ0G.png" group-title="Hong Kong",RTHK 31
 https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/master.m3u8
 
-#EXTINF:-1 tvg-id="rthk31" tvg-logo="https://i.imgur.com/4k1mQ0G.png" group-title="Hong Kong",RTHK 31 (SD)
-https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/index_360_av-b.m3u8
-
-#EXTINF:-1 tvg-id="rthk32" tvg-logo="https://i.imgur.com/1xw0n6S.png" group-title="Hong Kong",RTHK 32 (HD)
+#EXTINF:-1 tvg-id="rthk32" tvg-logo="https://i.imgur.com/1xw0n6S.png" group-title="Hong Kong",RTHK 32
 https://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/master.m3u8
 
-#EXTINF:-1 tvg-id="rthk32" tvg-logo="https://i.imgur.com/1xw0n6S.png" group-title="Hong Kong",RTHK 32 (SD)
-https://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/index_360_av-b.m3u8
-
-#EXTINF:-1 tvg-id="rthk33" tvg-logo="https://i.imgur.com/3Qm8x0J.png" group-title="Hong Kong",RTHK 33 (HD)
+#EXTINF:-1 tvg-id="rthk33" tvg-logo="https://i.imgur.com/3Qm8x0J.png" group-title="Hong Kong",RTHK 33
 https://rthklive3-lh.akamaihd.net/i/rthk33_1@168451/master.m3u8
 
-#EXTINF:-1 tvg-id="rthk33" tvg-logo="https://i.imgur.com/3Qm8x0J.png" group-title="Hong Kong",RTHK 33 (SD)
-https://rthklive3-lh.akamaihd.net/i/rthk33_1@168451/index_360_av-b.m3u8
+#EXTINF:-1 tvg-id="tvbnews26" tvg-logo="https://i.imgur.com/2YkYx0P.png" group-title="Hong Kong",TVB News 26
+https://epg.pw/stream/tvbnews26_aac.m3u8
+#EXTVLCOPT:backup-url=https://iptv12k.com/hk/tvbnews26/index.m3u8
+#EXTVLCOPT:backup-url=https://pull-l3-cny.douyincdn.com/live/tvbnews26.m3u8
