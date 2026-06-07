@@ -1,54 +1,31 @@
 #EXTM3U url-tvg="https://epg.112114.xyz/pp.xml"
 
 ############################################################
-# ViuTV — Firestick AC3 → Wimius AAC fallback
+# ViuTV — Working
 ############################################################
 
-# Firestick primary (AC3)
-#EXTINF:-1 tvg-id="viutv.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTV.png" group-title="Hong Kong",ViuTV (Firestick HD)
+#EXTINF:-1 tvg-id="viutv.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTV.png" group-title="Hong Kong",ViuTV
 http://r.jdshipin.com/vSJvl
 
-# Firestick backup (AC3)
-#EXTINF:-1 tvg-id="viutv.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTV.png" group-title="Hong Kong",ViuTV (Backup)
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=viutv
-
-# Wimius fallback (AAC)
-#EXTINF:-1 tvg-id="viutv.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTV.png" group-title="Hong Kong",ViuTV (Wimius AAC Fallback)
-https://hoytv-live-stream.hoy.tv/hoytv/index.m3u8
-
 
 ############################################################
-# ViuTVsix — Firestick AC3 → Wimius AAC fallback
+# ViuTVsix — Working
 ############################################################
 
-# Firestick primary (AC3)
-#EXTINF:-1 tvg-id="viutvsix.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTVsix.png" group-title="Hong Kong",ViuTVsix (Firestick HD)
-http://r.jdshipin.com/6GJxQ
-
-# Firestick backup (AC3)
-#EXTINF:-1 tvg-id="viutvsix.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTVsix.png" group-title="Hong Kong",ViuTVsix (Backup)
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=viutvsix
-
-# Wimius fallback (AAC)
-#EXTINF:-1 tvg-id="viutvsix.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTVsix.png" group-title="Hong Kong",ViuTVsix (Wimius AAC Fallback)
+#EXTINF:-1 tvg-id="viutvsix.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTVsix.png" group-title="Hong Kong",ViuTVsix
 https://hoytv-live-stream.hoy.tv/hoyinfotv/index.m3u8
 
 
 ############################################################
-# J2 — Firestick AC3 → Wimius AAC fallback
+# J2 — Working
 ############################################################
 
-# Firestick primary (AC3)
-#EXTINF:-1 tvg-id="tvbj2.hk" tvg-logo="https://epg.112114.xyz/logo/J2.png" group-title="Hong Kong",J2 (Firestick HD)
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=j2
-
-# Wimius fallback (AAC)
-#EXTINF:-1 tvg-id="tvbj2.hk" tvg-logo="https://epg.112114.xyz/logo/J2.png" group-title="Hong Kong",J2 (Wimius AAC Fallback)
-http://r.jdshipin.com/8wQ2p
+#EXTINF:-1 tvg-id="tvbj2.hk" tvg-logo="https://epg.112114.xyz/logo/J2.png" group-title="Hong Kong",J2
+https://edge6a.v2h-cdn.com/j2/index.m3u8
 
 
 ############################################################
-# TVB — All AAC (EPG OK)
+# TVB — Working
 ############################################################
 
 #EXTINF:-1 tvg-id="tvbjade.hk" tvg-logo="https://epg.112114.xyz/logo/翡翠台.png" group-title="Hong Kong",翡翠台
@@ -62,7 +39,7 @@ http://php.jdshipin.com:8880/PLTV/iptv.php?id=tvbnews
 
 
 ############################################################
-# HOY — Official AAC (EPG OK)
+# HOY — Working
 ############################################################
 
 #EXTINF:-1 tvg-id="hoytv.hk" tvg-logo="https://epg.112114.xyz/logo/HOYTV.png" group-title="Hong Kong",HOY TV
@@ -73,7 +50,7 @@ https://hoytv-live-stream.hoy.tv/hoyinfotv/index.m3u8
 
 
 ############################################################
-# RTHK — Official AAC (EPG OK)
+# RTHK — Working
 ############################################################
 
 #EXTINF:-1 tvg-id="rthk31.hk" tvg-logo="https://epg.112114.xyz/logo/RTHK31.png" group-title="Hong Kong",港台 31
@@ -87,7 +64,7 @@ https://rthklive3-lh.akamaihd.net/i/rthk33_1@168451/master.m3u8
 
 
 ############################################################
-# Phoenix — AAC (EPG OK)
+# Phoenix — Working
 ############################################################
 
 #EXTINF:-1 tvg-id="phoenixchinese.hk" tvg-logo="https://epg.112114.xyz/logo/PhoenixChinese.png" group-title="Hong Kong",鳳凰中文台
@@ -101,42 +78,7 @@ http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
 
 
 ############################################################
-# Kids — AAC (EPG OK)
+# Kids — Working
 ############################################################
 
-#EXTINF:-1 tvg-id="hoykids.hk" tvg-logo="https://epg.112114.xyz/logo/HOYKids.png" group-title="Kids",HOY 兒童台
-https://hoytv-live-stream.hoy.tv/hoykids/index.m3u8
-
-#EXTINF:-1 tvg-id="babyfirst.hk" tvg-logo="https://epg.112114.xyz/logo/BabyFirst.png" group-title="Kids",BabyFirst 粵語
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=babyfirst
-
-#EXTINF:-1 tvg-id="ducktv.hk" tvg-logo="https://epg.112114.xyz/logo/DuckTV.png" group-title="Kids",Duck TV 粵語
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=ducktv
-
-
-############################################################
-# Movies — AAC (EPG OK)
-############################################################
-
-#EXTINF:-1 tvg-id="celestialclassic.hk" tvg-logo="https://epg.112114.xyz/logo/CelestialClassic.png" group-title="Movies",天映經典
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=celestialclassic
-
-#EXTINF:-1 tvg-id="celestialmovies.hk" tvg-logo="https://epg.112114.xyz/logo/CelestialMovies.png" group-title="Movies",天映電影
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=celestialmovies
-
-#EXTINF:-1 tvg-id="scm.hk" tvg-logo="https://epg.112114.xyz/logo/SCM.png" group-title="Movies",星衛電影台
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=scm
-
-
-############################################################
-# 24/7 Cantonese Drama Loops — AAC (EPG OK)
-############################################################
-
-#EXTINF:-1 tvg-id="dramahk1.hk" tvg-logo="https://epg.112114.xyz/logo/DramaHK1.png" group-title="Drama",粵語劇集台 1
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=dramahk1
-
-#EXTINF:-1 tvg-id="dramahk2.hk" tvg-logo="https://epg.112114.xyz/logo/DramaHK2.png" group-title="Drama",粵語劇集台 2
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=dramahk2
-
-#EXTINF:-1 tvg-id="dramahk3.hk" tvg-logo="https://epg.112114.xyz/logo/DramaHK3.png" group-title="Drama",粵語劇集台 3
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=dramahk3
+#EXTINF:-1 tvg-id="hoykids.hk" tvg-logo
