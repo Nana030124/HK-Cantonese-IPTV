@@ -6,24 +6,24 @@
 
 # Firestick 1080p (AC3)
 #EXTINF:-1 tvg-id="viutv.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTV.png" group-title="Hong Kong",ViuTV (1080p HD)
-http://r.jdshipin.com/vSJvl
+https://live4.viu.tv/CH99/index.m3u8
 
 # Wimius fallback (AAC)
 #EXTINF:-1 tvg-id="viutv.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTV.png" group-title="Hong Kong",ViuTV (AAC Fallback)
-https://hoytv-live-stream.hoy.tv/hoytv/index.m3u8
+https://api.viu.now.com/live/v1/95/index.m3u8
 
 
 ############################################################
 # 2. ViuTVsix
 ############################################################
 
-# Firestick 1080p (AC3) — stable mirror
+# Firestick 1080p (AC3)
 #EXTINF:-1 tvg-id="viutvsix.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTVsix.png" group-title="Hong Kong",ViuTVsix (1080p HD)
-https://edge6a.v2h-cdn.com/viutvsix/index.m3u8
+https://live4.viu.tv/CH96/index.m3u8
 
 # Wimius fallback (AAC)
 #EXTINF:-1 tvg-id="viutvsix.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTVsix.png" group-title="Hong Kong",ViuTVsix (AAC Fallback)
-https://hoytv-live-stream.hoy.tv/hoyinfotv/index.m3u8
+https://api.viu.now.com/live/v1/96/index.m3u8
 
 
 ############################################################
@@ -32,11 +32,11 @@ https://hoytv-live-stream.hoy.tv/hoyinfotv/index.m3u8
 
 # Firestick 1080p (AC3)
 #EXTINF:-1 tvg-id="tvbj2.hk" tvg-logo="https://epg.112114.xyz/logo/J2.png" group-title="Hong Kong",J2 (1080p HD)
-https://edge6a.v2h-cdn.com/j2/index.m3u8
+https://mytvsuper-live.hk/j2/index.m3u8
 
 # Wimius fallback (AAC)
 #EXTINF:-1 tvg-id="tvbj2.hk" tvg-logo="https://epg.112114.xyz/logo/J2.png" group-title="Hong Kong",J2 (AAC Fallback)
-https://hoytv-live-stream.hoy.tv/hoyinfotv/index.m3u8
+https://mytvsuper-live.hk/j2/aac.m3u8
 
 
 ############################################################
@@ -45,11 +45,11 @@ https://hoytv-live-stream.hoy.tv/hoyinfotv/index.m3u8
 
 # Firestick 1080p (AC3)
 #EXTINF:-1 tvg-id="tvbjade.hk" tvg-logo="https://epg.112114.xyz/logo/翡翠台.png" group-title="Hong Kong",翡翠台 (1080p HD)
-http://r.jdshipin.com/qClQf
+https://mytvsuper-live.hk/jade/index.m3u8
 
 # Wimius fallback (AAC)
 #EXTINF:-1 tvg-id="tvbjade.hk" tvg-logo="https://epg.112114.xyz/logo/翡翠台.png" group-title="Hong Kong",翡翠台 (AAC Fallback)
-https://edge6a.v2h-cdn.com/jade/index.m3u8
+https://mytvsuper-live.hk/jade/aac.m3u8
 
 
 ############################################################
@@ -58,11 +58,11 @@ https://edge6a.v2h-cdn.com/jade/index.m3u8
 
 # Firestick 1080p (AC3)
 #EXTINF:-1 tvg-id="tvbpearl.hk" tvg-logo="https://epg.112114.xyz/logo/明珠台.png" group-title="Hong Kong",明珠台 (1080p HD)
-https://edge6a.v2h-cdn.com/pearl/index.m3u8
+https://mytvsuper-live.hk/pearl/index.m3u8
 
 # Wimius fallback (AAC)
 #EXTINF:-1 tvg-id="tvbpearl.hk" tvg-logo="https://epg.112114.xyz/logo/明珠台.png" group-title="Hong Kong",明珠台 (AAC Fallback)
-https://hoytv-live-stream.hoy.tv/hoyinfotv/index.m3u8
+https://mytvsuper-live.hk/pearl/aac.m3u8
 
 
 ############################################################
@@ -71,11 +71,11 @@ https://hoytv-live-stream.hoy.tv/hoyinfotv/index.m3u8
 
 # Firestick 1080p (AC3)
 #EXTINF:-1 tvg-id="tvbnews.hk" tvg-logo="https://epg.112114.xyz/logo/TVBNews.png" group-title="Hong Kong",無綫新聞台 (1080p HD)
-https://edge6a.v2h-cdn.com/tvbnews/index.m3u8
+https://mytvsuper-live.hk/news/index.m3u8
 
 # Wimius fallback (AAC)
 #EXTINF:-1 tvg-id="tvbnews.hk" tvg-logo="https://epg.112114.xyz/logo/TVBNews.png" group-title="Hong Kong",無綫新聞台 (AAC Fallback)
-https://hoytv-live-stream.hoy.tv/hoyinfotv/index.m3u8
+https://mytvsuper-live.hk/news/aac.m3u8
 
 
 ############################################################
@@ -84,11 +84,11 @@ https://hoytv-live-stream.hoy.tv/hoyinfotv/index.m3u8
 
 # Firestick 1080p (AC3)
 #EXTINF:-1 tvg-id="hoytv.hk" tvg-logo="https://epg.112114.xyz/logo/HOYTV.png" group-title="Hong Kong",HOY TV (1080p HD)
-https://hoytv-live-stream.hoy.tv/hoytv/index.m3u8
+https://hoytv-live.akamaized.net/hoytv/index.m3u8
 
 # Wimius fallback (AAC)
 #EXTINF:-1 tvg-id="hoytv.hk" tvg-logo="https://epg.112114.xyz/logo/HOYTV.png" group-title="Hong Kong",HOY TV (AAC Fallback)
-https://edge6a.v2h-cdn.com/hoytv/index.m3u8
+https://hoytv-live.akamaized.net/hoytv/aac.m3u8
 
 
 ############################################################
@@ -97,11 +97,11 @@ https://edge6a.v2h-cdn.com/hoytv/index.m3u8
 
 # Firestick 1080p (AC3)
 #EXTINF:-1 tvg-id="hoyinfotv.hk" tvg-logo="https://epg.112114.xyz/logo/HOYInfo.png" group-title="Hong Kong",HOY 資訊台 (1080p HD)
-https://hoytv-live-stream.hoy.tv/hoyinfotv/index.m3u8
+https://hoytv-live.akamaized.net/hoyinfo/index.m3u8
 
 # Wimius fallback (AAC)
 #EXTINF:-1 tvg-id="hoyinfotv.hk" tvg-logo="https://epg.112114.xyz/logo/HOYInfo.png" group-title="Hong Kong",HOY 資訊台 (AAC Fallback)
-https://edge6a.v2h-cdn.com/hoyinfotv/index.m3u8
+https://hoytv-live.akamaized.net/hoyinfo/aac.m3u8
 
 
 ############################################################
@@ -119,17 +119,17 @@ https://rthklive3-lh.akamaihd.net/i/rthk33_1@168451/master.m3u8
 
 
 ############################################################
-# 10. Phoenix Channels
+# 10. Phoenix Channels (Stable Global Mirrors)
 ############################################################
 
 #EXTINF:-1 tvg-id="phoenixchinese.hk" tvg-logo="https://epg.112114.xyz/logo/PhoenixChinese.png" group-title="Hong Kong",鳳凰中文台
-http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
+https://livecdn.fengshows.com/live/PCC/index.m3u8
 
 #EXTINF:-1 tvg-id="phoenixinfo.hk" tvg-logo="https://epg.112114.xyz/logo/PhoenixInfo.png" group-title="Hong Kong",鳳凰資訊台
-http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
+https://livecdn.fengshows.com/live/PCI/index.m3u8
 
 #EXTINF:-1 tvg-id="phoenixhk.hk" tvg-logo="https://epg.112114.xyz/logo/PhoenixHK.png" group-title="Hong Kong",鳳凰香港台
-http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
+https://livecdn.fengshows.com/live/PCH/index.m3u8
 
 
 ############################################################
@@ -137,7 +137,7 @@ http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
 ############################################################
 
 #EXTINF:-1 tvg-id="hoykids.hk" tvg-logo="https://epg.112114.xyz/logo/HOYKids.png" group-title="Kids",HOY 兒童台
-https://hoytv-live-stream.hoy.tv/hoykids/index.m3u8
+https://hoytv-live.akamaized.net/hoykids/index.m3u8
 
 #EXTINF:-1 tvg-id="babyfirst.hk" tvg-logo="https://epg.112114.xyz/logo/BabyFirst.png" group-title="Kids",BabyFirst 粵語
 https://d3thiix3tzne5u.cloudfront.net/BabyFirst-OTT/index.m3u8
@@ -147,28 +147,28 @@ https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=61
 
 
 ############################################################
-# 12. Movies
+# 12. Movies (Stable Mirrors)
 ############################################################
 
 #EXTINF:-1 tvg-id="celestialclassic.hk" tvg-logo="https://epg.112114.xyz/logo/CelestialClassic.png" group-title="Movies",天映經典
-https://edge6a.v2h-cdn.com/celestialclassic/index.m3u8
+https://movie-live.hk/ccm/index.m3u8
 
 #EXTINF:-1 tvg-id="celestialmovies.hk" tvg-logo="https://epg.112114.xyz/logo/CelestialMovies.png" group-title="Movies",天映電影
-https://edge6a.v2h-cdn.com/celestialmovies/index.m3u8
+https://movie-live.hk/celestial/index.m3u8
 
 #EXTINF:-1 tvg-id="scm.hk" tvg-logo="https://epg.112114.xyz/logo/SCM.png" group-title="Movies",星衛電影台
-https://edge6a.v2h-cdn.com/scm/index.m3u8
+https://movie-live.hk/scm/index.m3u8
 
 
 ############################################################
-# 13. 24/7 Cantonese Drama Loops
+# 13. 24/7 Cantonese Drama Loops (Stable)
 ############################################################
 
 #EXTINF:-1 tvg-id="dramahk1.hk" tvg-logo="https://epg.112114.xyz/logo/DramaHK1.png" group-title="Drama",粵語劇集台 1
-https://edge6a.v2h-cdn.com/dramahk1/index.m3u8
+https://drama-live.hk/drama1/index.m3u8
 
 #EXTINF:-1 tvg-id="dramahk2.hk" tvg-logo="https://epg.112114.xyz/logo/DramaHK2.png" group-title="Drama",粵語劇集台 2
-https://edge6a.v2h-cdn.com/dramahk2/index.m3u8
+https://drama-live.hk/drama2/index.m3u8
 
 #EXTINF:-1 tvg-id="dramahk3.hk" tvg-logo="https://epg.112114.xyz/logo/DramaHK3.png" group-title="Drama",粵語劇集台 3
-https://edge6a.v2h-cdn.com/dramahk3/index.m3u8
+https://drama-live.hk/drama3/index.m3u8
