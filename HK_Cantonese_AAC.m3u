@@ -1,5 +1,4 @@
 #EXTM3U url-tvg="https://epg.112114.xyz/pp.xml"
-# Update: Firestick-first + Wimius AAC fallback
 
 ############################################################
 # ViuTV — Firestick AC3 → Wimius AAC fallback
@@ -36,14 +35,24 @@ https://hoytv-live-stream.hoy.tv/hoyinfotv/index.m3u8
 
 
 ############################################################
-# TVB — All AAC (works on both Firestick + Wimius)
+# J2 — Firestick AC3 → Wimius AAC fallback
+############################################################
+
+# Firestick primary (AC3)
+#EXTINF:-1 tvg-id="tvbj2.hk" tvg-logo="https://epg.112114.xyz/logo/J2.png" group-title="Hong Kong",J2 (Firestick HD)
+http://php.jdshipin.com:8880/PLTV/iptv.php?id=j2
+
+# Wimius fallback (AAC)
+#EXTINF:-1 tvg-id="tvbj2.hk" tvg-logo="https://epg.112114.xyz/logo/J2.png" group-title="Hong Kong",J2 (Wimius AAC Fallback)
+http://r.jdshipin.com/8wQ2p
+
+
+############################################################
+# TVB — All AAC (EPG OK)
 ############################################################
 
 #EXTINF:-1 tvg-id="tvbjade.hk" tvg-logo="https://epg.112114.xyz/logo/翡翠台.png" group-title="Hong Kong",翡翠台
 http://r.jdshipin.com/qClQf
-
-#EXTINF:-1 tvg-id="tvbj2.hk" tvg-logo="https://epg.112114.xyz/logo/J2.png" group-title="Hong Kong",J2
-http://php.jdshipin.com:8880/PLTV/iptv.php?id=j2
 
 #EXTINF:-1 tvg-id="tvbpearl.hk" tvg-logo="https://epg.112114.xyz/logo/明珠台.png" group-title="Hong Kong",明珠台
 http://php.jdshipin.com:8880/PLTV/iptv.php?id=pearl
@@ -53,7 +62,7 @@ http://php.jdshipin.com:8880/PLTV/iptv.php?id=tvbnews
 
 
 ############################################################
-# HOY — Official AAC (works everywhere)
+# HOY — Official AAC (EPG OK)
 ############################################################
 
 #EXTINF:-1 tvg-id="hoytv.hk" tvg-logo="https://epg.112114.xyz/logo/HOYTV.png" group-title="Hong Kong",HOY TV
@@ -64,7 +73,7 @@ https://hoytv-live-stream.hoy.tv/hoyinfotv/index.m3u8
 
 
 ############################################################
-# RTHK — Official AAC (works everywhere)
+# RTHK — Official AAC (EPG OK)
 ############################################################
 
 #EXTINF:-1 tvg-id="rthk31.hk" tvg-logo="https://epg.112114.xyz/logo/RTHK31.png" group-title="Hong Kong",港台 31
@@ -78,7 +87,7 @@ https://rthklive3-lh.akamaihd.net/i/rthk33_1@168451/master.m3u8
 
 
 ############################################################
-# Phoenix — AAC (works everywhere)
+# Phoenix — AAC (EPG OK)
 ############################################################
 
 #EXTINF:-1 tvg-id="phoenixchinese.hk" tvg-logo="https://epg.112114.xyz/logo/PhoenixChinese.png" group-title="Hong Kong",鳳凰中文台
@@ -92,7 +101,7 @@ http://playtv-live.ifeng.com/live/06OLEEWQKN4.m3u8
 
 
 ############################################################
-# Kids — AAC (Wimius safe)
+# Kids — AAC (EPG OK)
 ############################################################
 
 #EXTINF:-1 tvg-id="hoykids.hk" tvg-logo="https://epg.112114.xyz/logo/HOYKids.png" group-title="Kids",HOY 兒童台
@@ -106,7 +115,7 @@ http://php.jdshipin.com:8880/PLTV/iptv.php?id=ducktv
 
 
 ############################################################
-# Movies — AAC (Wimius safe)
+# Movies — AAC (EPG OK)
 ############################################################
 
 #EXTINF:-1 tvg-id="celestialclassic.hk" tvg-logo="https://epg.112114.xyz/logo/CelestialClassic.png" group-title="Movies",天映經典
@@ -120,7 +129,7 @@ http://php.jdshipin.com:8880/PLTV/iptv.php?id=scm
 
 
 ############################################################
-# 24/7 Cantonese Drama Loops — AAC (Wimius safe)
+# 24/7 Cantonese Drama Loops — AAC (EPG OK)
 ############################################################
 
 #EXTINF:-1 tvg-id="dramahk1.hk" tvg-logo="https://epg.112114.xyz/logo/DramaHK1.png" group-title="Drama",粵語劇集台 1
