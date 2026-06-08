@@ -1,111 +1,99 @@
 #EXTM3U url-tvg="https://epg.112114.xyz/pp.xml"
-
-############################################################
-# 31. RTHK 31
-############################################################
-#EXTINF:-1 tvg-id="rthk31.hk" tvg-logo="https://epg.112114.xyz/logo/RTHK31.png" group-title="Hong Kong",31 港台電視31
-https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/master.m3u8
-https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/index_2052_av-b.m3u8
-
-############################################################
-# 32. RTHK 32
-############################################################
-#EXTINF:-1 tvg-id="rthk32.hk" tvg-logo="https://epg.112114.xyz/logo/RTHK32.png" group-title="Hong Kong",32 港台電視32
-https://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/master.m3u8
-https://rthklive2-lh.akamaihd.net/i/rthk32_1@168450/index_2052_av-b.m3u8
-
-############################################################
-# 33. RTHK 33
-############################################################
-#EXTINF:-1 tvg-id="rthk33.hk" tvg-logo="https://epg.112114.xyz/logo/RTHK33.png" group-title="Hong Kong",33 港台電視33
-https://rthklive3-lh.akamaihd.net/i/rthk33_1@168451/master.m3u8
-https://rthklive3-lh.akamaihd.net/i/rthk33_1@168451/index_2052_av-b.m3u8
-
-############################################################
-# 81. ViuTV
-############################################################
-#EXTINF:-1 tvg-id="viutv.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTV.png" group-title="Hong Kong",81 ViuTV
+#EXTINF:-1 tvg-id="rthk31.hk" tvg-logo="https://epg.112114.xyz/logo/RTHK31.jpg" group-title="Hong Kong TV",31 港台電視31
+http://iptv.52sf.ga/hk/rthk31.m3u8
+#EXTVLCOPT:input-repeat=100
+http://iptv.4666888.xyz/iptv2A.php?id=rthk31_aac
+#EXTINF:-1 tvg-id="rthk32.hk" tvg-logo="https://epg.112114.xyz/logo/RTHK32.jpg" group-title="Hong Kong TV",32 港台電視32
+http://iptv.52sf.ga/hk/rthk32.m3u8
+#EXTVLCOPT:input-repeat=100
+http://iptv.4666888.xyz/iptv2A.php?id=rthk32_aac
+#EXTINF:-1 tvg-id="rthk33.hk" tvg-logo="https://epg.112114.xyz/logo/RTHK33.jpg" group-title="Hong Kong TV",33 港台電視33
+http://iptv.52sf.ga/hk/rthk33.m3u8
+#EXTVLCOPT:input-repeat=100
+http://iptv.4666888.xyz/iptv2A.php?id=rthk33_aac
+#EXTINF:-1 tvg-id="rthk34.hk" tvg-logo="https://epg.112114.xyz/logo/RTHK34.jpg" group-title="Hong Kong TV",34 港台電視34
+http://iptv.52sf.ga/hk/rthk34.m3u8
+#EXTVLCOPT:input-repeat=100
+http://iptv.4666888.xyz/iptv2A.php?id=rthk34_aac
+#EXTINF:-1 tvg-id="rthk35.hk" tvg-logo="https://epg.112114.xyz/logo/RTHK35.jpg" group-title="Hong Kong TV",35 港台電視35
+http://iptv.52sf.ga/hk/rthk35.m3u8
+#EXTVLCOPT:input-repeat=100
+http://iptv.4666888.xyz/iptv2A.php?id=rthk35_aac
+#EXTINF:-1 tvg-id="rthk36.hk" tvg-logo="https://epg.112114.xyz/logo/RTHK36.jpg" group-title="Hong Kong TV",36 港台電視36
+http://iptv.52sf.ga/hk/rthk36.m3u8
+#EXTVLCOPT:input-repeat=100
+http://iptv.4666888.xyz/iptv2A.php?id=rthk36_aac
+#EXTINF:-1 tvg-id="viutv.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTV.jpg" group-title="Hong Kong TV",81 ViuTV
 http://r.jdshipin.com/TcKr2
+#EXTVLCOPT:input-repeat=100
 http://iptv.4666888.xyz/iptv2A.php?id=viutv_aac
-
-############################################################
-# 82. ViuTVsix
-############################################################
-#EXTINF:-1 tvg-id="viutvsix.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTVsix.png" group-title="Hong Kong",82 ViuTVsix
-http://iptv.4666888.xyz/iptv2A.php?id=viusix_hd
-http://iptv.4666888.xyz/iptv2A.php?id=viusix_aac
-
-############################################################
-# 83. J2
-############################################################
-#EXTINF:-1 tvg-id="tvbj2.hk" tvg-logo="https://epg.112114.xyz/logo/J2.png" group-title="Hong Kong",83 J2
+#EXTVLCOPT:input-repeat=100
+http://iptv.52sf.ga/hk/viutv.m3u8
+#EXTINF:-1 tvg-id="viutv6.hk" tvg-logo="https://epg.112114.xyz/logo/ViuTVsix.jpg" group-title="Hong Kong TV",82 ViuTVsix
+http://iptv.52sf.ga/hk/viutv6.m3u8
+#EXTVLCOPT:input-repeat=100
+http://iptv.4666888.xyz/iptv2A.php?id=viutv6_aac
+#EXTINF:-1 tvg-id="tvbj2.hk" tvg-logo="https://epg.112114.xyz/logo/J2.jpg" group-title="Hong Kong TV",83 J2
 http://iptv.4666888.xyz/iptv2A.php?id=j2_hd
+#EXTVLCOPT:input-repeat=100
 http://iptv.4666888.xyz/iptv2A.php?id=j2_aac
-
-############################################################
-# 84. 翡翠台 (Jade)
-############################################################
-#EXTINF:-1 tvg-id="tvbjade.hk" tvg-logo="https://epg.112114.xyz/logo/翡翠台.png" group-title="Hong Kong",84 翡翠台 4K
+#EXTVLCOPT:input-repeat=100
+http://iptv.52sf.ga/hk/j2.m3u8
+#EXTINF:-1 tvg-id="tvbjade.hk" tvg-logo="https://epg.112114.xyz/logo/翡翠台.jpg" group-title="Hong Kong TV",84 翡翠台
 http://cdn6.163189.xyz/163189/fct4k
+#EXTVLCOPT:input-repeat=100
 http://php.jdshipin.com:8880/TVOD/iptv.php?id=fct4
-
-############################################################
-# 85. 明珠台 (Pearl)
-############################################################
-#EXTINF:-1 tvg-id="tvbpearl.hk" tvg-logo="https://epg.112114.xyz/logo/明珠台.png" group-title="Hong Kong",85 明珠台
+#EXTVLCOPT:input-repeat=100
+http://iptv.4666888.xyz/iptv2A.php?id=jade_aac
+#EXTINF:-1 tvg-id="tvbpearl.hk" tvg-logo="https://epg.112114.xyz/logo/明珠台.jpg" group-title="Hong Kong TV",85 明珠台
 http://r.jdshipin.com/jUx8K
+#EXTVLCOPT:input-repeat=100
 http://iptv.4666888.xyz/iptv2A.php?id=pearl_aac
-
-############################################################
-# 86. 無綫新聞台 (TVB News)
-############################################################
-#EXTINF:-1 tvg-id="tvbnews.hk" tvg-logo="https://epg.112114.xyz/logo/TVB無線新聞.png" group-title="Hong Kong",86 無綫新聞台
+#EXTVLCOPT:input-repeat=100
+http://iptv.52sf.ga/hk/pearl.m3u8
+#EXTINF:-1 tvg-id="tvbnews.hk" tvg-logo="https://epg.112114.xyz/logo/TVB無線新聞.jpg" group-title="Hong Kong TV",86 無綫新聞台
 http://cdn9.163189.xyz/smt1.1.php?id=inews_twn
+#EXTVLCOPT:input-repeat=100
 http://r.jdshipin.com/CkuBd
-
-############################################################
-# 87. HOY TV
-############################################################
-#EXTINF:-1 tvg-id="hoytv.hk" tvg-logo="https://epg.112114.xyz/logo/HOYTV.png" group-title="Hong Kong",87 HOY TV
-http://iptv.4666888.xyz/iptv2A.php?id=hoy_hd
-http://iptv.4666888.xyz/iptv2A.php?id=hoy_aac
-
-############################################################
-# 88. HOY Info
-############################################################
-#EXTINF:-1 tvg-id="hoyinfotv.hk" tvg-logo="https://epg.112114.xyz/logo/HOYInfo.png" group-title="Hong Kong",88 HOY 資訊台
-http://iptv.4666888.xyz/iptv2A.php?id=hoyinfo_hd
+#EXTVLCOPT:input-repeat=100
+http://iptv.4666888.xyz/iptv2A.php?id=tvbnews_aac
+#EXTINF:-1 tvg-id="hoytv.hk" tvg-logo="https://epg.112114.xyz/logo/HOYTV.jpg" group-title="Hong Kong TV",87 HOY TV
+http://iptv.52sf.ga/hk/hoytv.m3u8
+#EXTVLCOPT:input-repeat=100
+http://iptv.4666888.xyz/iptv2A.php?id=hoytv_aac
+#EXTINF:-1 tvg-id="hoyinfotv.hk" tvg-logo="https://epg.112114.xyz/logo/HOY資訊台.jpg" group-title="Hong Kong TV",88 HOY 資訊台
+http://iptv.52sf.ga/hk/hoyinfo.m3u8
+#EXTVLCOPT:input-repeat=100
 http://iptv.4666888.xyz/iptv2A.php?id=hoyinfo_aac
-
-############################################################
-# 101. 有線新聞 (i-Cable News)
-############################################################
-#EXTINF:-1 tvg-id="icablenews.hk" tvg-logo="https://epg.112114.xyz/logo/有線新聞.png" group-title="Hong Kong",101 有線新聞
-http://iptv.4666888.xyz/iptv2A.php?id=31
-http://iptv.4666888.xyz/iptv2A.php?id=31_aac
-
-############################################################
-# 201. Kids Channels
-############################################################
-#EXTINF:-1 tvg-id="babyfirst.hk" tvg-logo="https://epg.112114.xyz/logo/BabyFirst.png" group-title="Kids",201 BabyFirst 粵語
-https://d3thiix3tzne5u.cloudfront.net/BabyFirst-OTT/index.m3u8
-https://d3thiix3tzne5u.cloudfront.net/BabyFirst-OTT/index.m3u8
-
-#EXTINF:-1 tvg-id="ducktv.hk" tvg-logo="https://epg.112114.xyz/logo/DuckTV.png" group-title="Kids",202 Duck TV 粵語
-https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=61
-https://stream-us-east-1.getpublica.com/playlist.m3u8?network_id=61
-
-############################################################
-# 301. Cantonese Drama Loops
-############################################################
-#EXTINF:-1 tvg-id="dramahk1.hk" tvg-logo="https://epg.112114.xyz/logo/DramaHK1.png" group-title="Drama",301 粵語劇集台 1
-http://iptv.4666888.xyz/iptv2A.php?id=drama1
+#EXTINF:-1 tvg-id="icablenews.hk" tvg-logo="https://epg.112114.xyz/logo/有線新聞.jpg" group-title="Hong Kong TV",101 有線新聞
+http://iptv.52sf.ga/hk/cablenews.m3u8
+#EXTVLCOPT:input-repeat=100
+http://iptv.4666888.xyz/iptv2A.php?id=cablenews_aac
+#EXTINF:-1 tvg-id="babyfirsttv.us" tvg-logo="https://epg.112114.xyz/logo/BabyFirst.jpg" group-title="Kids",BabyFirst 粵語
+http://iptv.52sf.ga/kids/babyfirst.m3u8
+#EXTVLCOPT:input-repeat=100
+http://iptv.4666888.xyz/iptv2A.php?id=babyfirst_aac
+#EXTINF:-1 tvg-id="ducktv.eu" tvg-logo="https://epg.112114.xyz/logo/DuckTV.jpg" group-title="Kids",Duck TV 粵語
+http://iptv.52sf.ga/kids/ducktv.m3u8
+#EXTVLCOPT:input-repeat=100
+http://iptv.4666888.xyz/iptv2A.php?id=ducktv_aac
+#EXTINF:-1 tvg-id="" tvg-logo="https://epg.112114.xyz/logo/drama1.jpg" group-title="Drama",粵語劇集台 1
+http://iptv.52sf.ga/drama/drama1.m3u8
+#EXTVLCOPT:input-repeat=100
 http://iptv.4666888.xyz/iptv2A.php?id=drama1_aac
-
-#EXTINF:-1 tvg-id="dramahk2.hk" tvg-logo="https://epg.112114.xyz/logo/DramaHK2.png" group-title="Drama",302 粵語劇集台 2
-http://iptv.4666888.xyz/iptv2A.php?id=drama2
+#EXTINF:-1 tvg-id="" tvg-logo="https://epg.112114.xyz/logo/drama2.jpg" group-title="Drama",粵語劇集台 2
+http://iptv.52sf.ga/drama/drama2.m3u8
+#EXTVLCOPT:input-repeat=100
 http://iptv.4666888.xyz/iptv2A.php?id=drama2_aac
-
-#EXTINF:-1 tvg-id="dramahk3.hk" tvg-logo="https://epg.112114.xyz/logo/DramaHK3.png" group-title="Drama",303 粵語劇集台 3
-http://iptv.4666888.xyz/iptv2A.php?id=drama3
+#EXTINF:-1 tvg-id="" tvg-logo="https://epg.112114.xyz/logo/drama3.jpg" group-title="Drama",粵語劇集台 3
+http://iptv.52sf.ga/drama/drama3.m3u8
+#EXTVLCOPT:input-repeat=100
 http://iptv.4666888.xyz/iptv2A.php?id=drama3_aac
+#EXTINF:-1 tvg-id="" tvg-logo="https://epg.112114.xyz/logo/test1.jpg" group-title="Extras",Test Stream 1
+http://iptv.52sf.ga/test/test1.m3u8
+#EXTVLCOPT:input-repeat=100
+http://iptv.4666888.xyz/iptv2A.php?id=test1_aac
+#EXTINF:-1 tvg-id="" tvg-logo="https://epg.112114.xyz/logo/test2.jpg" group-title="Extras",Test Stream 2
+http://iptv.52sf.ga/test/test2.m3u8
+#EXTVLCOPT:input-repeat=100
+http://iptv.4666888.xyz/iptv2A.php?id=test2_aac
