@@ -1,4 +1,4 @@
-#EXTM3U url-tvg="https://epg.112114.xyz/pp.xml"
+#EXTM3U url-tvg="https://epg.112114.xyz/pp.xml,https://epg.112114.xyz/tvb.xml"
 #EXTINF:-1 tvg-id="rthk31.hk" tvg-logo="https://epg.112114.xyz/logo/RTHK31.png" group-title="Hong Kong TV",31 港台電視31
 https://rthklive1-lh.akamaihd.net/i/rthk31_1@167495/index_2052_av-b.m3u8
 #EXTINF:-1 tvg-id="rthk32.hk" tvg-logo="https://epg.112114.xyz/logo/RTHK32.png" group-title="Hong Kong TV",32 港台電視32
