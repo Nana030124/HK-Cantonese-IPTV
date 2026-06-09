@@ -27,6 +27,8 @@ http://cdn.163189.xyz/163189/now
 http://pullpackage.alivecdn.com/live/B9AKX0X3gSWZVv91H6UZDdsYyM8Fie9HvmJFzg3XN8JiR27kog.flv
 #EXTINF:-1 tvg-id="nowchinese.hk" tvg-logo="https://epg.112114.xyz/logo/Now華劇.png" group-title="Hong Kong TV",336 Now華劇
 http://iptv.4666888.xyz/iptv2A.php?id=84
+#EXTINF:-1 tvg-id="tvbj2.hk" tvg-logo="https://epg.112114.xyz/logo/J2.png" group-title="Hong Kong TV",83 J2
+http://r.jdshipin.com/Nr5jq
 
 #EXTINF:-1 tvg-id="babytv.uk" tvg-logo="https://epg.112114.xyz/logo/BabyTV.png" group-title="Kids",BabyTV
 https://stream.ads.ottera.tv/playlist.m3u8?network_id=408
